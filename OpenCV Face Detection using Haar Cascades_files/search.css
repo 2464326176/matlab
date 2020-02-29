@@ -1,0 +1,132 @@
+#FSearchBox {
+	float: left;
+}
+#MSearchBox {
+	width: 170px; height: 24px; right: 0px; margin-top: 8px; float: none; white-space: nowrap; z-index: 102;
+}
+#MSearchBox .left {
+	background: url("search_l.png") no-repeat right; left: 10px; width: 20px; height: 19px; display: block; position: absolute;
+}
+#MSearchSelect {
+	width: 20px; height: 19px; display: block; position: absolute;
+}
+.left #MSearchSelect {
+	left: 4px;
+}
+.right #MSearchSelect {
+	right: 5px;
+}
+#MSearchField {
+	background: url("search_m.png") repeat-x; font: 9pt/normal Arial, Verdana, sans-serif; border: currentColor; width: 115px; height: 19px; color: rgb(144, 144, 144); padding-left: 4px; margin-left: 20px; display: block; position: absolute; font-size-adjust: none; font-stretch: normal; -webkit-border-radius: 0px;
+}
+#FSearchBox #MSearchField {
+	margin-left: 15px;
+}
+#MSearchBox .right {
+	background: url("search_r.png") no-repeat left; top: 8px; width: 20px; height: 19px; right: 10px; display: block; position: absolute;
+}
+#MSearchClose {
+	background: none; margin: 0px 4px 0px 0px; padding: 0px; border: currentColor; top: 4px; display: none; position: absolute;
+}
+.left #MSearchClose {
+	left: 6px;
+}
+.right #MSearchClose {
+	right: 2px;
+}
+.MSearchBoxActive #MSearchField {
+	color: rgb(0, 0, 0);
+}
+#MSearchSelectWindow {
+	border: 1px solid rgb(144, 165, 206); left: 0px; top: 0px; padding-top: 4px; padding-bottom: 4px; display: none; position: absolute; z-index: 10001; background-color: rgb(249, 250, 252); -moz-border-radius: 4px; -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -webkit-border-bottom-left-radius: 4px; -webkit-border-bottom-right-radius: 4px;
+}
+.SelectItem {
+	font: 8pt/normal Arial, Verdana, sans-serif; border: 0px currentColor; padding-right: 12px; padding-left: 2px; font-size-adjust: none; font-stretch: normal;
+}
+span.SelectionMark {
+	font-family: monospace; text-decoration: none; margin-right: 4px; outline-style: none;
+}
+a.SelectItem {
+	color: rgb(0, 0, 0); padding-right: 12px; padding-left: 6px; text-decoration: none; display: block; outline-style: none;
+}
+a.SelectItem:focus {
+	color: rgb(0, 0, 0); text-decoration: none; outline-style: none;
+}
+a.SelectItem:active {
+	color: rgb(0, 0, 0); text-decoration: none; outline-style: none;
+}
+a.SelectItem:hover {
+	color: rgb(255, 255, 255); text-decoration: none; display: block; cursor: pointer; outline-style: none; background-color: rgb(61, 87, 140);
+}
+iframe#MSearchResults {
+	width: 60ex; height: 15em;
+}
+#MSearchResultsWindow {
+	border: 1px solid rgb(0, 0, 0); left: 0px; top: 0px; display: none; position: absolute; z-index: 10000; background-color: rgb(238, 241, 247);
+}
+#SRIndex {
+	padding-bottom: 15px; clear: both;
+}
+.SREntry {
+	padding-left: 1ex; font-size: 10pt;
+}
+.SRPage .SREntry {
+	padding: 1px 5px; font-size: 8pt;
+}
+body.SRPage {
+	margin: 5px 2px;
+}
+.SRChildren {
+	padding-bottom: 0.5em; padding-left: 3ex;
+}
+.SRPage .SRChildren {
+	display: none;
+}
+.SRSymbol {
+	color: rgb(66, 94, 151); font-family: Arial, Verdana, sans-serif; font-weight: bold; text-decoration: none;
+}
+a.SRScope {
+	color: rgb(66, 94, 151); font-family: Arial, Verdana, sans-serif; text-decoration: none; display: block;
+}
+a.SRSymbol:focus {
+	text-decoration: underline;
+}
+a.SRSymbol:active {
+	text-decoration: underline;
+}
+a.SRScope:focus {
+	text-decoration: underline;
+}
+a.SRScope:active {
+	text-decoration: underline;
+}
+span.SRScope {
+	padding-left: 4px;
+}
+.SRPage .SRStatus {
+	padding: 2px 5px; font-size: 8pt; font-style: italic;
+}
+.SRResult {
+	display: none;
+}
+div.searchresults {
+	margin-right: 10px; margin-left: 10px;
+}
+.searchresult {
+	background-color: rgb(240, 243, 248);
+}
+.pages b {
+	padding: 5px 5px 3px; color: white; background-image: url("../tab_a.png"); background-repeat: repeat-x; text-shadow: 0 1px 1px #000000;
+}
+.pages {
+	line-height: 17px; text-decoration: none; margin-left: 4px;
+}
+.hl {
+	font-weight: bold;
+}
+#searchresults {
+	margin-bottom: 20px;
+}
+.searchpages {
+	margin-top: 10px;
+}

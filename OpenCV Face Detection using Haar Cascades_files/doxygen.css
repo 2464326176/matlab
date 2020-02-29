@@ -1,0 +1,1011 @@
+body {
+	font: 400 14px/22px Roboto, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+table {
+	font: 400 14px/22px Roboto, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+div {
+	font: 400 14px/22px Roboto, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+p {
+	font: 400 14px/22px Roboto, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+dl {
+	font: 400 14px/22px Roboto, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+h1.groupheader {
+	font-size: 150%;
+}
+.title {
+	font: bold 150%/28px Roboto, sans-serif; margin: 10px 2px; font-size-adjust: none; font-stretch: normal;
+}
+h2.groupheader {
+	width: 100%; color: rgb(53, 76, 123); padding-top: 8px; padding-bottom: 4px; font-size: 150%; font-weight: normal; margin-top: 1.75em; border-bottom-color: rgb(135, 158, 203); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h3.groupheader {
+	font-size: 100%;
+}
+h1 {
+	margin-right: 15px; -webkit-transition: text-shadow 0.5s linear; -moz-transition: text-shadow 0.5s linear; -ms-transition: text-shadow 0.5s linear; -o-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear;
+}
+h2 {
+	margin-right: 15px; -webkit-transition: text-shadow 0.5s linear; -moz-transition: text-shadow 0.5s linear; -ms-transition: text-shadow 0.5s linear; -o-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear;
+}
+h3 {
+	margin-right: 15px; -webkit-transition: text-shadow 0.5s linear; -moz-transition: text-shadow 0.5s linear; -ms-transition: text-shadow 0.5s linear; -o-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear;
+}
+h4 {
+	margin-right: 15px; -webkit-transition: text-shadow 0.5s linear; -moz-transition: text-shadow 0.5s linear; -ms-transition: text-shadow 0.5s linear; -o-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear;
+}
+h5 {
+	margin-right: 15px; -webkit-transition: text-shadow 0.5s linear; -moz-transition: text-shadow 0.5s linear; -ms-transition: text-shadow 0.5s linear; -o-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear;
+}
+h6 {
+	margin-right: 15px; -webkit-transition: text-shadow 0.5s linear; -moz-transition: text-shadow 0.5s linear; -ms-transition: text-shadow 0.5s linear; -o-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear;
+}
+h1.glow {
+	text-shadow: 0 0 15px cyan;
+}
+h2.glow {
+	text-shadow: 0 0 15px cyan;
+}
+h3.glow {
+	text-shadow: 0 0 15px cyan;
+}
+h4.glow {
+	text-shadow: 0 0 15px cyan;
+}
+h5.glow {
+	text-shadow: 0 0 15px cyan;
+}
+h6.glow {
+	text-shadow: 0 0 15px cyan;
+}
+dt {
+	font-weight: bold;
+}
+div.multicol {
+	-moz-column-gap: 1em; -webkit-column-gap: 1em; -moz-column-count: 3; -webkit-column-count: 3;
+}
+p.startli {
+	margin-top: 2px;
+}
+p.startdd {
+	margin-top: 2px;
+}
+p.starttd {
+	margin-top: 0px;
+}
+p.endli {
+	margin-bottom: 0px;
+}
+p.enddd {
+	margin-bottom: 4px;
+}
+p.endtd {
+	margin-bottom: 2px;
+}
+caption {
+	font-weight: bold;
+}
+span.legend {
+	text-align: center; font-size: 70%;
+}
+h3.version {
+	text-align: center; font-size: 90%;
+}
+div.qindex {
+	border: 1px solid rgb(163, 180, 215); text-align: center; background-color: rgb(235, 239, 246);
+}
+div.navtab {
+	border: 1px solid rgb(163, 180, 215); text-align: center; background-color: rgb(235, 239, 246);
+}
+div.qindex {
+	width: 100%; line-height: 140%;
+}
+div.navpath {
+	width: 100%; line-height: 140%;
+}
+div.navtab {
+	margin-right: 15px;
+}
+a {
+	color: rgb(61, 87, 140); font-weight: normal; text-decoration: none;
+}
+.contents a:visited {
+	color: rgb(70, 101, 162);
+}
+a:hover {
+	text-decoration: underline;
+}
+a.qindex {
+	font-weight: bold;
+}
+a.qindexHL {
+	border: 1px double rgb(134, 157, 202); color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(156, 175, 212);
+}
+.contents a.qindexHL:visited {
+	color: rgb(255, 255, 255);
+}
+a.el {
+	font-weight: bold;
+}
+a.elRef {
+	
+}
+a.code {
+	color: rgb(70, 101, 162);
+}
+a.code:visited {
+	color: rgb(70, 101, 162);
+}
+a.line {
+	color: rgb(70, 101, 162);
+}
+a.line:visited {
+	color: rgb(70, 101, 162);
+}
+a.codeRef {
+	color: rgb(70, 101, 162);
+}
+a.codeRef:visited {
+	color: rgb(70, 101, 162);
+}
+a.lineRef {
+	color: rgb(70, 101, 162);
+}
+a.lineRef:visited {
+	color: rgb(70, 101, 162);
+}
+dl.el {
+	margin-left: -1cm;
+}
+pre.fragment {
+	margin: 4px 8px 4px 2px; padding: 4px 6px; border: 1px solid rgb(196, 207, 229); line-height: 125%; overflow: auto; font-family: monospace, fixed; font-size: 105%; word-wrap: break-word; background-color: rgb(251, 252, 253);
+}
+div.fragment {
+	margin: 4px 8px 4px 2px; padding: 0px; border: 1px solid rgb(196, 207, 229); background-color: rgb(251, 252, 253);
+}
+div.line {
+	margin: 0px; line-height: 1; text-indent: -53px; padding-bottom: 0px; padding-left: 53px; font-family: monospace, fixed; font-size: 13px; white-space: pre-wrap; word-wrap: break-word; min-height: 13px; text-wrap: unrestricted; -webkit-transition-property: background-color, box-shadow; -webkit-transition-duration: 0.5s; -moz-transition-property: background-color, box-shadow; -moz-transition-duration: 0.5s; -ms-transition-property: background-color, box-shadow; -ms-transition-duration: 0.5s; -o-transition-property: background-color, box-shadow; -o-transition-duration: 0.5s; transition-property: background-color, box-shadow; transition-duration: 0.5s;
+}
+div.line::after {
+	white-space: pre; content: "\000A";
+}
+div.glow.line {
+	box-shadow: 0px 0px 10px cyan; background-color: cyan;
+}
+span.lineno {
+	text-align: right; padding-right: 4px; border-right-color: rgb(0, 255, 0); border-right-width: 2px; border-right-style: solid; white-space: pre; background-color: rgb(232, 232, 232);
+}
+span.lineno a {
+	background-color: rgb(216, 216, 216);
+}
+span.lineno a:hover {
+	background-color: rgb(200, 200, 200);
+}
+.lineno {
+	-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+div.ah {
+	padding: 0.2em; border-radius: 0.5em; border: thin solid rgb(51, 51, 51); color: rgb(255, 255, 255); font-weight: bold; margin-top: 3px; margin-bottom: 3px; box-shadow: 2px 2px 3px #999; background-color: black; -moz-border-radius: .5em; -webkit-border-radius: .5em; -moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px; -webkit-box-shadow: 2px 2px 3px #999;
+}
+span.ah {
+	padding: 0.2em; border-radius: 0.5em; border: thin solid rgb(51, 51, 51); color: rgb(255, 255, 255); font-weight: bold; margin-top: 3px; margin-bottom: 3px; box-shadow: 2px 2px 3px #999; background-color: black; -moz-border-radius: .5em; -webkit-border-radius: .5em; -moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px; -webkit-box-shadow: 2px 2px 3px #999;
+}
+div.classindex ul {
+	list-style: none; padding-left: 0px;
+}
+div.classindex span.ai {
+	display: inline-block;
+}
+div.groupHeader {
+	font-weight: bold; margin-top: 12px; margin-left: 16px;
+}
+div.groupText {
+	font-style: italic; margin-left: 16px;
+}
+body {
+	margin: 0px; color: black; background-color: white;
+}
+div.contents {
+	margin-top: 10px; margin-right: 8px; margin-left: 12px;
+}
+td.indexkey {
+	margin: 2px 0px; padding: 2px 10px; border: 1px solid rgb(196, 207, 229); font-weight: bold; vertical-align: top; white-space: nowrap; background-color: rgb(235, 239, 246);
+}
+td.indexvalue {
+	margin: 2px 0px; padding: 2px 10px; border: 1px solid rgb(196, 207, 229); background-color: rgb(235, 239, 246);
+}
+tr.memlist {
+	background-color: rgb(238, 241, 247);
+}
+p.formulaDsp {
+	text-align: center;
+}
+img.formulaDsp {
+	
+}
+img.formulaInl {
+	vertical-align: middle;
+}
+div.center {
+	padding: 0px; text-align: center; margin-top: 0px; margin-bottom: 0px;
+}
+div.center img {
+	border: 0px currentColor;
+}
+address.footer {
+	text-align: right; padding-right: 12px;
+}
+img.footer {
+	border: 0px currentColor; vertical-align: middle;
+}
+span.keyword {
+	color: rgb(0, 128, 0);
+}
+span.keywordtype {
+	color: rgb(96, 64, 32);
+}
+span.keywordflow {
+	color: rgb(224, 128, 0);
+}
+span.comment {
+	color: rgb(128, 0, 0);
+}
+span.preprocessor {
+	color: rgb(128, 96, 32);
+}
+span.stringliteral {
+	color: rgb(0, 32, 128);
+}
+span.charliteral {
+	color: rgb(0, 128, 128);
+}
+span.vhdldigit {
+	color: rgb(255, 0, 255);
+}
+span.vhdlchar {
+	color: rgb(0, 0, 0);
+}
+span.vhdlkeyword {
+	color: rgb(112, 0, 112);
+}
+span.vhdllogic {
+	color: rgb(255, 0, 0);
+}
+blockquote {
+	margin: 0px 24px 0px 4px; padding: 0px 12px 0px 16px; border-left-color: rgb(156, 175, 212); border-left-width: 2px; border-left-style: solid; background-color: rgb(247, 248, 251);
+}
+td.tiny {
+	font-size: 75%;
+}
+.dirtab {
+	padding: 4px; border: 1px solid rgb(163, 180, 215); border-collapse: collapse;
+}
+th.dirtab {
+	background: rgb(235, 239, 246); font-weight: bold;
+}
+hr {
+	border-width: 1px medium medium; border-style: solid none none; border-color: rgb(74, 106, 170) currentColor currentColor; height: 0px;
+}
+hr.footer {
+	height: 1px;
+}
+table.memberdecls {
+	padding: 0px; border-spacing: 0px;
+}
+.memberdecls td {
+	-webkit-transition-property: background-color, box-shadow; -webkit-transition-duration: 0.5s; -moz-transition-property: background-color, box-shadow; -moz-transition-duration: 0.5s; -ms-transition-property: background-color, box-shadow; -ms-transition-duration: 0.5s; -o-transition-property: background-color, box-shadow; -o-transition-duration: 0.5s; transition-property: background-color, box-shadow; transition-duration: 0.5s;
+}
+.fieldtable tr {
+	-webkit-transition-property: background-color, box-shadow; -webkit-transition-duration: 0.5s; -moz-transition-property: background-color, box-shadow; -moz-transition-duration: 0.5s; -ms-transition-property: background-color, box-shadow; -ms-transition-duration: 0.5s; -o-transition-property: background-color, box-shadow; -o-transition-duration: 0.5s; transition-property: background-color, box-shadow; transition-duration: 0.5s;
+}
+.memberdecls td.glow {
+	box-shadow: 0px 0px 15px cyan; background-color: cyan;
+}
+.fieldtable tr.glow {
+	box-shadow: 0px 0px 15px cyan; background-color: cyan;
+}
+.mdescLeft {
+	margin: 4px; padding: 1px 0px 0px 8px; border: currentColor; background-color: rgb(249, 250, 252);
+}
+.mdescRight {
+	margin: 4px; padding: 1px 0px 0px 8px; border: currentColor; background-color: rgb(249, 250, 252);
+}
+.memItemLeft {
+	margin: 4px; padding: 1px 0px 0px 8px; border: currentColor; background-color: rgb(249, 250, 252);
+}
+.memItemRight {
+	margin: 4px; padding: 1px 0px 0px 8px; border: currentColor; background-color: rgb(249, 250, 252);
+}
+.memTemplItemLeft {
+	margin: 4px; padding: 1px 0px 0px 8px; border: currentColor; background-color: rgb(249, 250, 252);
+}
+.memTemplItemRight {
+	margin: 4px; padding: 1px 0px 0px 8px; border: currentColor; background-color: rgb(249, 250, 252);
+}
+.memTemplParams {
+	margin: 4px; padding: 1px 0px 0px 8px; border: currentColor; background-color: rgb(249, 250, 252);
+}
+.mdescLeft {
+	padding: 0px 8px 4px; color: rgb(85, 85, 85);
+}
+.mdescRight {
+	padding: 0px 8px 4px; color: rgb(85, 85, 85);
+}
+.memSeparator {
+	margin: 0px; padding: 0px; line-height: 1px; border-bottom-color: rgb(222, 228, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.memItemLeft {
+	white-space: nowrap;
+}
+.memTemplItemLeft {
+	white-space: nowrap;
+}
+.memItemRight {
+	width: 100%;
+}
+.memTemplParams {
+	color: rgb(70, 101, 162); font-size: 80%; white-space: nowrap;
+}
+.memtitle {
+	padding: 8px; line-height: 1.25; font-weight: 300; margin-bottom: -1px; border-top-color: rgb(168, 184, 217); border-right-color: rgb(168, 184, 217); border-left-color: rgb(168, 184, 217); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: left; border-top-left-radius: 4px; border-top-right-radius: 4px; background-image: url("nav_f.png"); background-repeat: repeat-x; background-color: rgb(226, 232, 242);
+}
+.permalink {
+	font-size: 65%; vertical-align: middle; display: inline-block;
+}
+.memtemplate {
+	color: rgb(70, 101, 162); font-size: 80%; font-weight: normal; margin-left: 9px;
+}
+.memnav {
+	margin: 2px 15px 2px 2px; padding: 2px; border: 1px solid rgb(163, 180, 215); text-align: center; background-color: rgb(235, 239, 246);
+}
+.mempage {
+	width: 100%;
+}
+.memitem {
+	padding: 0px; width: 100%; margin-right: 5px; margin-bottom: 10px; display: table !important; -webkit-transition: box-shadow 0.5s linear; -moz-transition: box-shadow 0.5s linear; -ms-transition: box-shadow 0.5s linear; -o-transition: box-shadow 0.5s linear; transition: box-shadow 0.5s linear;
+}
+.glow.memitem {
+	box-shadow: 0px 0px 15px cyan;
+}
+.memname {
+	font-weight: 400; margin-left: 6px;
+}
+.memname td {
+	vertical-align: bottom;
+}
+.memproto {
+	padding: 6px 0px; color: rgb(37, 53, 85); font-weight: bold; border-top-color: rgb(168, 184, 217); border-right-color: rgb(168, 184, 217); border-left-color: rgb(168, 184, 217); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-right-radius: 4px; box-shadow: 5px 5px 5px rgba(0,0,0,0.15); background-color: rgb(223, 229, 241); text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9); -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px; -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px;
+}
+dl.reflist dt {
+	padding: 6px 0px; color: rgb(37, 53, 85); font-weight: bold; border-top-color: rgb(168, 184, 217); border-right-color: rgb(168, 184, 217); border-left-color: rgb(168, 184, 217); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-right-radius: 4px; box-shadow: 5px 5px 5px rgba(0,0,0,0.15); background-color: rgb(223, 229, 241); text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9); -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px; -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px;
+}
+.overload {
+	font-family: "courier new",courier,monospace; font-size: 65%;
+}
+.memdoc {
+	border-width: 0px 1px 1px; padding: 6px 10px 2px; border-right-color: rgb(168, 184, 217); border-bottom-color: rgb(168, 184, 217); border-left-color: rgb(168, 184, 217); border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: 5px 5px 5px rgba(0,0,0,0.15); background-image: url("nav_g.png"); background-repeat: repeat-x; background-color: rgb(255, 255, 255); -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px; -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); -webkit-border-bottom-left-radius: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomleft: 4px; -moz-border-radius-bottomright: 4px;
+}
+dl.reflist dd {
+	border-width: 0px 1px 1px; padding: 6px 10px 2px; border-right-color: rgb(168, 184, 217); border-bottom-color: rgb(168, 184, 217); border-left-color: rgb(168, 184, 217); border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: 5px 5px 5px rgba(0,0,0,0.15); background-image: url("nav_g.png"); background-repeat: repeat-x; background-color: rgb(255, 255, 255); -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px; -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); -webkit-border-bottom-left-radius: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomleft: 4px; -moz-border-radius-bottomright: 4px;
+}
+dl.reflist dt {
+	padding: 5px;
+}
+dl.reflist dd {
+	margin: 0px 0px 10px; padding: 5px;
+}
+.paramkey {
+	text-align: right;
+}
+.paramtype {
+	white-space: nowrap;
+}
+.paramname {
+	color: rgb(96, 32, 32); white-space: nowrap;
+}
+.paramname em {
+	font-style: normal;
+}
+.paramname code {
+	line-height: 14px;
+}
+.params {
+	padding-left: 0px; margin-left: 0px;
+}
+.retval {
+	padding-left: 0px; margin-left: 0px;
+}
+.exception {
+	padding-left: 0px; margin-left: 0px;
+}
+.tparams {
+	padding-left: 0px; margin-left: 0px;
+}
+.params .paramname {
+	font-weight: bold; vertical-align: top;
+}
+.retval .paramname {
+	font-weight: bold; vertical-align: top;
+}
+.params .paramtype {
+	font-style: italic; vertical-align: top;
+}
+.params .paramdir {
+	font-family: "courier new",courier,monospace; vertical-align: top;
+}
+table.mlabels {
+	border-spacing: 0px;
+}
+td.mlabels-left {
+	padding: 0px; width: 100%;
+}
+td.mlabels-right {
+	padding: 0px; vertical-align: bottom; white-space: nowrap;
+}
+span.mlabels {
+	margin-left: 8px;
+}
+span.mlabel {
+	border-width: 1px; border-style: solid; border-color: rgb(83, 115, 180) rgb(196, 207, 229) rgb(196, 207, 229) rgb(83, 115, 180); padding: 2px 3px; border-radius: 3px; color: white; font-size: 7pt; margin-right: 4px; vertical-align: middle; white-space: nowrap; background-color: rgb(114, 141, 193); text-shadow: none;
+}
+div.directory {
+	margin: 10px 0px; width: 100%; border-top-color: rgb(156, 175, 212); border-bottom-color: rgb(156, 175, 212); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.directory table {
+	border-collapse: collapse;
+}
+.directory td {
+	margin: 0px; padding: 0px; vertical-align: top;
+}
+.directory td.entry {
+	padding-top: 3px; padding-right: 6px; white-space: nowrap;
+}
+.directory td.entry a {
+	
+}
+.directory td.entry a img {
+	border: currentColor;
+}
+.directory td.desc {
+	width: 100%; padding-top: 3px; padding-right: 6px; padding-left: 6px; border-left-color: rgba(0, 0, 0, 0.05); border-left-width: 1px; border-left-style: solid;
+}
+.directory tr.even {
+	padding-left: 6px; background-color: rgb(247, 248, 251);
+}
+.directory img {
+	vertical-align: -30%;
+}
+.directory .levels {
+	width: 100%; text-align: right; font-size: 9pt; white-space: nowrap;
+}
+.directory .levels span {
+	color: rgb(61, 87, 140); padding-right: 2px; padding-left: 2px; cursor: pointer;
+}
+.arrow {
+	width: 16px; height: 22px; color: rgb(156, 175, 212); font-size: 80%; display: inline-block; cursor: pointer; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+.icon {
+	border-radius: 4px; width: 16px; height: 14px; text-align: center; color: white; font-family: Arial, Helvetica; font-size: 12px; font-weight: bold; margin-right: 2px; margin-left: 2px; display: inline-block; background-color: rgb(114, 141, 193);
+}
+.icona {
+	width: 24px; height: 22px; display: inline-block;
+}
+.iconfopen {
+	background-position: 0px -4px; width: 24px; height: 18px; margin-bottom: 4px; vertical-align: top; display: inline-block; background-image: url("folderopen.png"); background-repeat: repeat-y;
+}
+.iconfclosed {
+	background-position: 0px -4px; width: 24px; height: 18px; margin-bottom: 4px; vertical-align: top; display: inline-block; background-image: url("folderclosed.png"); background-repeat: repeat-y;
+}
+.icondoc {
+	background-position: 0px -4px; width: 24px; height: 18px; margin-bottom: 4px; vertical-align: top; display: inline-block; background-image: url("doc.png"); background-repeat: repeat-y;
+}
+table.directory {
+	font: 400 14px/normal Roboto, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+div.dynheader {
+	margin-top: 8px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+address {
+	color: rgb(42, 61, 97); font-style: normal;
+}
+table.doxtable caption {
+	caption-side: top;
+}
+table.doxtable {
+	margin-top: 4px; margin-bottom: 4px; border-collapse: collapse;
+}
+table.doxtable td {
+	padding: 3px 7px 2px; border: 1px solid rgb(45, 64, 104);
+}
+table.doxtable th {
+	padding: 3px 7px 2px; border: 1px solid rgb(45, 64, 104);
+}
+table.doxtable th {
+	color: rgb(255, 255, 255); padding-top: 5px; padding-bottom: 4px; font-size: 110%; background-color: rgb(55, 79, 127);
+}
+table.fieldtable {
+	border-radius: 4px; border: 1px solid rgb(168, 184, 217); margin-bottom: 10px; border-spacing: 0px; box-shadow: 2px 2px 2px rgba(0,0,0,0.15); -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px; -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.fieldtable td {
+	padding: 3px 7px 2px;
+}
+.fieldtable th {
+	padding: 3px 7px 2px;
+}
+.fieldtable td.fieldtype {
+	vertical-align: top; border-right-color: rgb(168, 184, 217); border-bottom-color: rgb(168, 184, 217); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+.fieldtable td.fieldname {
+	vertical-align: top; border-right-color: rgb(168, 184, 217); border-bottom-color: rgb(168, 184, 217); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+.fieldtable td.fieldname {
+	padding-top: 3px;
+}
+.fieldtable td.fielddoc {
+	border-bottom-color: rgb(168, 184, 217); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.fieldtable td.fielddoc p:first-child {
+	margin-top: 0px;
+}
+.fieldtable td.fielddoc p:last-child {
+	margin-bottom: 2px;
+}
+.fieldtable tr:last-child td {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.fieldtable th {
+	text-align: left; color: rgb(37, 53, 85); padding-top: 5px; padding-bottom: 4px; font-size: 90%; font-weight: 400; border-bottom-color: rgb(168, 184, 217); border-bottom-width: 1px; border-bottom-style: solid; border-top-left-radius: 4px; border-top-right-radius: 4px; background-image: url("nav_f.png"); background-repeat: repeat-x; background-color: rgb(226, 232, 242); -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px; -moz-border-radius-topleft: 4px;
+}
+.tabsearch {
+	left: 10px; top: 0px; height: 36px; overflow: hidden; font-size: 13px; z-index: 101; background-image: url("tab_b.png");
+}
+.navpath ul {
+	background-position: 0px -5px; margin: 0px; padding: 0px; border: 1px solid rgb(194, 205, 228); height: 30px; color: rgb(138, 160, 204); line-height: 30px; overflow: hidden; font-size: 11px; background-image: url("tab_b.png"); background-repeat: repeat-x;
+}
+.navpath li {
+	background-position: right; color: rgb(54, 77, 124); padding-right: 15px; padding-left: 10px; float: left; list-style-type: none; background-image: url("bc_s.png"); background-repeat: no-repeat;
+}
+.navpath li.navelem a {
+	height: 32px; color: rgb(40, 58, 93); font-family: "Lucida Grande",Geneva,Helvetica,Arial,sans-serif; text-decoration: none; display: block; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+}
+.navpath li.navelem a:hover {
+	color: rgb(104, 132, 189);
+}
+.navpath li.footer {
+	background-position: right; color: rgb(54, 77, 124); padding-right: 15px; padding-left: 10px; font-size: 8pt; float: right; list-style-type: none; background-image: none; background-repeat: no-repeat;
+}
+div.summary {
+	width: 50%; text-align: right; padding-right: 5px; font-size: 8pt; float: right;
+}
+div.summary a {
+	white-space: nowrap;
+}
+table.classindex {
+	margin: 10px 3%; padding: 0px; border: 0px currentColor; width: 94%; white-space: nowrap; border-spacing: 0;
+}
+div.ingroups {
+	width: 50%; text-align: left; font-size: 8pt;
+}
+div.ingroups a {
+	white-space: nowrap;
+}
+div.header {
+	margin: 0px; border-bottom-color: rgb(196, 207, 229); border-bottom-width: 1px; border-bottom-style: solid; background-image: url("nav_h.png"); background-repeat: repeat-x; background-color: rgb(249, 250, 252);
+}
+div.headertitle {
+	padding: 5px 5px 5px 10px;
+}
+dl {
+	padding: 0px 0px 0px 10px;
+}
+dl.section {
+	padding-left: 0px; margin-left: 0px;
+}
+dl.note {
+	border-color: rgb(208, 192, 0); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.warning {
+	border-color: rgb(255, 0, 0); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.attention {
+	border-color: rgb(255, 0, 0); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.pre {
+	border-color: rgb(0, 208, 0); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.post {
+	border-color: rgb(0, 208, 0); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.invariant {
+	border-color: rgb(0, 208, 0); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.deprecated {
+	border-color: rgb(80, 80, 80); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.todo {
+	border-color: rgb(0, 192, 224); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.test {
+	border-color: rgb(48, 48, 224); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.bug {
+	border-color: rgb(192, 128, 80); padding-left: 3px; margin-left: -7px; border-left-width: 4px; border-left-style: solid;
+}
+dl.section dd {
+	margin-bottom: 6px;
+}
+#projectlogo {
+	text-align: center; vertical-align: bottom; border-collapse: separate;
+}
+#projectlogo img {
+	border: 0px currentColor;
+}
+#projectalign {
+	vertical-align: middle;
+}
+#projectname {
+	font: 300%/normal Tahoma, Arial, sans-serif; margin: 0px; padding: 2px 0px; font-size-adjust: none; font-stretch: normal;
+}
+#projectbrief {
+	font: 120%/normal Tahoma, Arial, sans-serif; margin: 0px; padding: 0px; font-size-adjust: none; font-stretch: normal;
+}
+#projectnumber {
+	font: 50%/normal Tahoma, Arial, sans-serif; margin: 0px; padding: 0px; font-size-adjust: none; font-stretch: normal;
+}
+#titlearea {
+	margin: 0px; padding: 0px; width: 100%; border-bottom-color: rgb(83, 115, 180); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.image {
+	text-align: center;
+}
+.dotgraph {
+	text-align: center;
+}
+.mscgraph {
+	text-align: center;
+}
+.diagraph {
+	text-align: center;
+}
+.caption {
+	font-weight: bold;
+}
+div.zoom {
+	border: 1px solid rgb(144, 165, 206);
+}
+dl.citelist {
+	margin-bottom: 50px;
+}
+dl.citelist dt {
+	padding: 5px; color: rgb(51, 73, 117); font-weight: bold; margin-right: 10px; float: left;
+}
+dl.citelist dd {
+	margin: 2px 0px; padding: 5px 0px;
+}
+div.toc {
+	margin: 0px 8px 10px 10px; padding: 14px 25px; border-radius: 7px; border: 1px solid rgb(216, 223, 238); width: 200px; height: auto; float: right; background-color: rgb(244, 246, 250);
+}
+div.toc li {
+	background: url("bdwn.png") no-repeat 0px 5px; font: 10px/1.2 Verdana, DejaVu Sans, Geneva, sans-serif; padding-top: 2px; padding-left: 10px; margin-top: 5px; font-size-adjust: none; font-stretch: normal;
+}
+div.toc h3 {
+	font: bold 12px/1.2 Arial, FreeSans, sans-serif; margin: 0px; color: rgb(70, 101, 162); border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; font-size-adjust: none; font-stretch: normal;
+}
+div.toc ul {
+	list-style: none; padding: 0px; border: currentColor;
+}
+div.toc li.level1 {
+	margin-left: 0px;
+}
+div.toc li.level2 {
+	margin-left: 15px;
+}
+div.toc li.level3 {
+	margin-left: 30px;
+}
+div.toc li.level4 {
+	margin-left: 45px;
+}
+.inherit_header {
+	color: gray; font-weight: bold; cursor: pointer; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+.inherit_header td {
+	padding: 6px 0px 2px 5px;
+}
+.inherit {
+	display: none;
+}
+tr.heading h2 {
+	margin-top: 12px; margin-bottom: 4px;
+}
+.ttc {
+	display: none; position: absolute;
+}
+#powerTip {
+	padding: 1ex 1em 1em; border-radius: 4px; border: 1px solid gray; font-size: smaller; display: none; white-space: nowrap; position: absolute; z-index: 2147483647; cursor: default; max-width: 80%; opacity: 0.9; box-shadow: 1px 1px 7px gray; background-color: white;
+}
+#powerTip div.ttdoc {
+	color: grey; font-style: italic;
+}
+#powerTip div.ttname a {
+	font-weight: bold;
+}
+#powerTip div.ttname {
+	font-weight: bold;
+}
+#powerTip div.ttdeci {
+	color: rgb(0, 99, 24);
+}
+#powerTip div {
+	font: 12px/16px Roboto, sans-serif; margin: 0px; padding: 0px; font-size-adjust: none; font-stretch: normal;
+}
+#powerTip::before {
+	margin: 0px; position: absolute; content: "";
+}
+#powerTip::after {
+	margin: 0px; position: absolute; content: "";
+}
+.n#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.n#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.s#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.s#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.w#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.w#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.e#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.e#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.ne#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.ne#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.se#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.se#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.nw#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.nw#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.sw#powerTip::after {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.sw#powerTip::before {
+	border: solid transparent; width: 0px; height: 0px; position: absolute; content: " ";
+}
+.n#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.s#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.w#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.e#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.nw#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.ne#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.sw#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.se#powerTip::after {
+	border-color: rgba(255, 255, 255, 0);
+}
+.n#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.s#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.w#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.e#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.nw#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.ne#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.sw#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.se#powerTip::before {
+	border-color: rgba(128, 128, 128, 0);
+}
+.n#powerTip::after {
+	top: 100%;
+}
+.n#powerTip::before {
+	top: 100%;
+}
+.ne#powerTip::after {
+	top: 100%;
+}
+.ne#powerTip::before {
+	top: 100%;
+}
+.nw#powerTip::after {
+	top: 100%;
+}
+.nw#powerTip::before {
+	top: 100%;
+}
+.n#powerTip::after {
+	border-width: 10px; margin: 0px -10px; border-top-color: rgb(255, 255, 255);
+}
+.ne#powerTip::after {
+	border-width: 10px; margin: 0px -10px; border-top-color: rgb(255, 255, 255);
+}
+.nw#powerTip::after {
+	border-width: 10px; margin: 0px -10px; border-top-color: rgb(255, 255, 255);
+}
+.n#powerTip::before {
+	border-width: 11px; margin: 0px -11px; border-top-color: rgb(128, 128, 128);
+}
+.n#powerTip::after {
+	left: 50%;
+}
+.n#powerTip::before {
+	left: 50%;
+}
+.nw#powerTip::after {
+	right: 14px;
+}
+.nw#powerTip::before {
+	right: 14px;
+}
+.ne#powerTip::after {
+	left: 14px;
+}
+.ne#powerTip::before {
+	left: 14px;
+}
+.s#powerTip::after {
+	bottom: 100%;
+}
+.s#powerTip::before {
+	bottom: 100%;
+}
+.se#powerTip::after {
+	bottom: 100%;
+}
+.se#powerTip::before {
+	bottom: 100%;
+}
+.sw#powerTip::after {
+	bottom: 100%;
+}
+.sw#powerTip::before {
+	bottom: 100%;
+}
+.s#powerTip::after {
+	border-width: 10px; margin: 0px -10px; border-bottom-color: rgb(255, 255, 255);
+}
+.se#powerTip::after {
+	border-width: 10px; margin: 0px -10px; border-bottom-color: rgb(255, 255, 255);
+}
+.sw#powerTip::after {
+	border-width: 10px; margin: 0px -10px; border-bottom-color: rgb(255, 255, 255);
+}
+.s#powerTip::before {
+	border-width: 11px; margin: 0px -11px; border-bottom-color: rgb(128, 128, 128);
+}
+.se#powerTip::before {
+	border-width: 11px; margin: 0px -11px; border-bottom-color: rgb(128, 128, 128);
+}
+.sw#powerTip::before {
+	border-width: 11px; margin: 0px -11px; border-bottom-color: rgb(128, 128, 128);
+}
+.s#powerTip::after {
+	left: 50%;
+}
+.s#powerTip::before {
+	left: 50%;
+}
+.sw#powerTip::after {
+	right: 14px;
+}
+.sw#powerTip::before {
+	right: 14px;
+}
+.se#powerTip::after {
+	left: 14px;
+}
+.se#powerTip::before {
+	left: 14px;
+}
+.e#powerTip::after {
+	left: 100%;
+}
+.e#powerTip::before {
+	left: 100%;
+}
+.e#powerTip::after {
+	border-width: 10px; top: 50%; margin-top: -10px; border-left-color: rgb(255, 255, 255);
+}
+.e#powerTip::before {
+	border-width: 11px; top: 50%; margin-top: -11px; border-left-color: rgb(128, 128, 128);
+}
+.w#powerTip::after {
+	right: 100%;
+}
+.w#powerTip::before {
+	right: 100%;
+}
+.w#powerTip::after {
+	border-width: 10px; top: 50%; margin-top: -10px; border-right-color: rgb(255, 255, 255);
+}
+.w#powerTip::before {
+	border-width: 11px; top: 50%; margin-top: -11px; border-right-color: rgb(128, 128, 128);
+}
+#top {
+	display: none;
+}
+#side-nav {
+	display: none;
+}
+#nav-path {
+	display: none;
+}
+body {
+	overflow: visible;
+}
+h1 {
+	page-break-after: avoid;
+}
+h2 {
+	page-break-after: avoid;
+}
+h3 {
+	page-break-after: avoid;
+}
+h4 {
+	page-break-after: avoid;
+}
+h5 {
+	page-break-after: avoid;
+}
+h6 {
+	page-break-after: avoid;
+}
+.summary {
+	display: none;
+}
+.memitem {
+	page-break-inside: avoid;
+}
+#doc-content {
+	width: auto !important; height: auto !important; overflow: inherit; margin-left: 0px !important; display: inline;
+}

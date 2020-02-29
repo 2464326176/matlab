@@ -1,0 +1,30 @@
+body {
+	font: 400 14px/22px Helvetica, "Segoe UI", Arial, freesans, sans-serif; word-wrap: break-word; font-size-adjust: none; font-stretch: normal;
+}
+table {
+	font: 400 14px/22px Helvetica, "Segoe UI", Arial, freesans, sans-serif; word-wrap: break-word; font-size-adjust: none; font-stretch: normal;
+}
+div {
+	font: 400 14px/22px Helvetica, "Segoe UI", Arial, freesans, sans-serif; word-wrap: break-word; font-size-adjust: none; font-stretch: normal;
+}
+p {
+	font: 400 14px/22px Helvetica, "Segoe UI", Arial, freesans, sans-serif; word-wrap: break-word; font-size-adjust: none; font-stretch: normal;
+}
+dl {
+	font: 400 14px/22px Helvetica, "Segoe UI", Arial, freesans, sans-serif; word-wrap: break-word; font-size-adjust: none; font-stretch: normal;
+}
+code {
+	font: 85%/normal Consolas, "Liberation Mono", Courier, monospace; padding: 0px; vertical-align: baseline; white-space: pre-wrap; font-size-adjust: none; font-stretch: normal; background-color: rgb(221, 221, 221);
+}
+body {
+	margin: 0px auto; background-image: url("bodybg.png");
+}
+div.contents {
+	margin: 0px auto; padding: 15px; border: 1px solid rgb(10, 80, 122); width: 980px; background-color: rgb(255, 255, 255);
+}
+span.arrow {
+	height: 13px;
+}
+div.image img {
+	max-width: 900px;
+}
